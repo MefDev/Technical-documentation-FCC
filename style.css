@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  padding-left: 8%;
+}
+li {
+  margin-bottom: 2%;
+}
+.left-side {
+    position: fixed;
+  
+    
+     border-right: 3px solid gray;
+     width: 20%;
+      
+      
+    
+      
+      
+    
+     
+  
+}
+.left-side h1 {
+    padding-left: 1rem;
+}
+.left-side p {
+    border-top: 1.5px solid gray;
+    padding-top: 7.5px;
+    height: 50%;
+   padding-left: 1rem;
+
+ 
+   
+  font-size: 1rem;
+   
+}
+.content {
+  padding-left: 22%;
+   
+}
+.content p {
+  padding-left: 2.5rem;
+  
+}
+.content h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+.content a {
+  margin-left: 0.5%;
+}
+.par-code p {
+  padding-left: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  
+}
+
+.par-code {
+  background: #0F0E0E;
+  margin:  2% 4%;
+  border-radius: 1rem;
+   
+  padding: 0.2rem;
+}
