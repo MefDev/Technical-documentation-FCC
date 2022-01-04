@@ -10,7 +10,7 @@ ul {
 li {
   margin-bottom: 2%;
 }
-.left-side {
+.left-side #navbar{
     position: fixed;
   
     
@@ -25,8 +25,22 @@ li {
      
   
 }
+@media only screen and (max-width: 600px)
+{
+  .left-side #navbar {
+    border-right: 2px solid gray;
+     width: 20%;
+    font-size: 0.5rem;
+  }
+}
 .left-side h1 {
     padding-left: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .left-side h1 {
+    font-size: 0.6rem;
+    padding-left: 0.2rem;
+  }
 }
 .left-side p {
     border-top: 1.5px solid gray;
@@ -34,22 +48,60 @@ li {
     height: 50%;
    padding-left: 1rem;
 
- 
-   
   font-size: 1rem;
    
 }
+@media only screen and (max-width: 600px) {
+  .left-side p {
+   
+   
+     
+   padding-left: 0.3rem;
+
+  font-size: 0.55rem;
+  }
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+ 
 .content {
   padding-left: 22%;
    
 }
+@media only screen and (max-width: 600px) 
+  
+{
+  .content {
+    font-size: 0.8rem;
+  }
+}
+
+
 .content p {
   padding-left: 2.5rem;
   
 }
+@media only screen and (max-width: 600px) {
+  .content  p  {
+     
+    padding-left: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .content  ul  {
+     
+    padding-left: 3rem;
+  }
+}
 .content h1 {
   font-family: 'Roboto Mono', monospace;
 }
+
+
 .content a {
   margin-left: 0.5%;
 }
@@ -59,11 +111,11 @@ li {
   font-size: 0.95rem;
   
 }
+ 
 
 .par-code {
   background: #0F0E0E;
   margin:  2% 4%;
   border-radius: 1rem;
-   
-  padding: 0.2rem;
+   padding: 0.2rem;
 }
